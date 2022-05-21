@@ -11,8 +11,6 @@ export function App() {
         <Route path="/" element={<PetList />}></Route>
         <Route path="/:id" element={<Pet />}></Route>
       </Routes>
-      <hr />
-      <Link to="/">Back to home</Link>
     </>
   );
 }
