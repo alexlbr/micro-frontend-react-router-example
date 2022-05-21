@@ -10,7 +10,8 @@
   },
   "workspaces": [
     "shell",
-    "micro-frontend"
+    "react-router-1",
+    "react-router-2"
   ],
   "dependencies": {
     "@leanjs/core": "*",

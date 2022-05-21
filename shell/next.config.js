@@ -9,8 +9,12 @@ const nextConfig = {
   async rewrites() {
     return [
       {
-        source: "/react-sub-pages/:id",
-        destination: "/react-sub-pages?id=:id",
+        source: "/react-router-1-sub-pages/:id",
+        destination: "/react-router-1-sub-pages?id=:id",
+      },
+      {
+        source: "/react-router-2-sub-pages/:id",
+        destination: "/react-router-2-sub-pages?id=:id",
       },
     ];
   },
